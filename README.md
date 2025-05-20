@@ -1,54 +1,50 @@
-# PID Servo Controller - Embedded Systems Project
-
-## Table of Contents
-- [Project Description](#project-description)
-- [Hardware Setup](#hardware-setup)
-- [Software Implementation](#software-implementation)
-- [PID Tuning Guide](#pid-tuning-guide)
-- [Operation](#operation)
-- [Troubleshooting](#troubleshooting)
-- [Extensions](#extensions)
-- [License](#license)
-
-## Project Description
-This project implements a PID control system using an Arduino to precisely position a servo motor based on potentiometer input. The system demonstrates closed-loop feedback control with adjustable parameters for educational and practical applications.
-
-**Key Features:**
-- Real-time position control with feedback
-- Configurable PID constants (Kp, Ki, Kd)
-- Simulated mechanical response (100ms update delay)
-- Safety-limited movement (10° max per step)
-- Detailed serial output for monitoring
-
-## Hardware Setup
-### Components Required
-| Component | Specifications | Qty |
-|-----------|---------------|-----|
-| Arduino Board | Uno/Nano | 1 |
-| Servo Motor | SG90 (180°) | 1 |
-| Potentiometer | 10kΩ linear | 1 |
-| Breadboard | 400+ points | 1 |
-| Jumper Wires | Male-to-male | 5-7 |
-
-### Wiring Diagram
-[POTENTIOMETER]
-Left → 5V
-Right → GND
-Middle → A0
-
-[SERVO]
-Brown → GND
-Red → 5V
-Orange → Pin 9
+# PID-Servo-controller---Embedded-Systems-
+This project demonstrates a basic implementation of a PID (Proportional-Integral-Derivative) control system using an Arduino, a servo motor, and a potentiometer. The servo motor smoothly follows the target angle set by the potentiometer using a PID loop for accurate and stable control.
 
 
-**Power Notes:**
-- Use external 5V supply if servo draws >500mA
-- Add 100μF capacitor near servo for stability
+# PID Servo Control with Arduino
 
-## Default Parameters
-double Kp = 0.6;   // Proportional gain
-double Ki = 0.2;   // Integral gain
-double Kd = 0.01;  // Derivative gain
-const int UPDATE_DELAY_MS = 100;  // Control loop period
-const int MAX_STEP = 10;          // Max degrees/update
+![PID Control System](https://via.placeholder.com/800x400?text=PID+Servo+Control+Diagram) 
+*Example: PID control system visualization*
+
+## 📝 Description
+This project demonstrates a PID (Proportional-Integral-Derivative) control system using:
+- Arduino microcontroller
+- Servo motor
+- Potentiometer as input
+
+The system reads target positions from a potentiometer and uses PID control to smoothly move the servo, simulating real-world mechanical systems with inertia.
+
+## 🛠 Hardware Components
+| Component | Quantity |
+|-----------|----------|
+| Arduino Board (Uno/Nano) | 1 |
+| Servo Motor (180°) | 1 |
+| 10kΩ Potentiometer | 1 |
+| Breadboard | 1 |
+| Jumper Wires | 5-7 |
+| 5V Power Source | 1 |
+
+## 🔌 Wiring Diagram
+Potentiometer:
+   Left pin  → 5V
+   Right pin → GND
+   Middle pin → A0
+
+Servo Motor:
+   Brown/Black → GND
+   Red → 5V
+   Orange/Yellow → Pin 9
+
+
+## 🔌 PID Tuning Parameter
+
+// Default PID values (adjust as needed)
+double Kp = 0.6;  // Proportional gain
+double Ki = 0.2;  // Integral gain
+double Kd = 0.01; // Derivative gain
+
+## 🔌 Serial output
+
+Target:[value], Current:[value], Error:[value]
+ make this more detailed
