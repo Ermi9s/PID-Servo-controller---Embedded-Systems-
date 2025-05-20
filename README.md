@@ -48,3 +48,14 @@ double Kd = 0.01; // Derivative gain
 
 Target:[value], Current:[value], Error:[value]
  make this more detailed
+
+
+# GROUP 1
+## Group members
+1. Bethel Solomon---------------------ETS0318/14
+2. Edom Mulugeta ---------------------ETS0503/14
+3. Ekhlas Abdulmelik -----------------ETS0511/14
+4. Emnet Teshome ---------------------ETS0529/14
+5. Enkutatash Eshetu -----------------ETS0533/14
+6.Ermias Ayele -----------------------ETS0541/14
+7.Estifanos Zinabu -------------------ETS0556/14
