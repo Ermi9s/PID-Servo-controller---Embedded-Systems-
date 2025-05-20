@@ -4,7 +4,7 @@ This project demonstrates a basic implementation of a PID (Proportional-Integral
 
 # PID Servo Control with Arduino
 
-![PID Control System](https://www.wattco.com/2024/05/pid-controller-explained/) 
+![PID Control System](https://miro.medium.com/v2/resize:fit:1400/0*6qwQPLegKNIOW_Et) 
 *Example: PID control system visualization*
 
 ## 📝 Description
