@@ -57,5 +57,5 @@ Target:[value], Current:[value], Error:[value]
 3. Ekhlas Abdulmelik -----------------ETS0511/14
 4. Emnet Teshome ---------------------ETS0529/14
 5. Enkutatash Eshetu -----------------ETS0533/14
-6.Ermias Ayele -----------------------ETS0541/14
-7.Estifanos Zinabu -------------------ETS0556/14
+6. Ermias Ayele -----------------------ETS0541/14
+7. Estifanos Zinabu -------------------ETS0556/14
