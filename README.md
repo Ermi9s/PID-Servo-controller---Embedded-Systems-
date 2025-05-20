@@ -4,7 +4,7 @@ This project demonstrates a basic implementation of a PID (Proportional-Integral
 
 # PID Servo Control with Arduino
 
-![PID Control System]( https://images.app.goo.gl/N2gXBtLk7rZroady7 ) 
+![PID Control System](https://images.app.goo.gl/N2gXBtLk7rZroady7) 
 *Example: PID control system visualization*
 
 ## 📝 Description
